@@ -1,0 +1,25 @@
+.dashboard {
+  display: flex;
+  flex-direction: row;
+  padding: 5% 0;
+  margin: 0;
+}
+
+.row {
+  margin: 0;
+  padding: 0;
+}
+
+.weather {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.todo {
+
+}
+
+.birthday {
+
+}

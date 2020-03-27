@@ -1,0 +1,66 @@
+
+<%- include("header") -%>
+
+  <div class="nav">
+
+  </div>
+  <div class="container dashboard">
+    <div class="row">
+
+    <!-- Display weather in cities using Bootstrap Cards-->
+    <div class="col-lg-3 weather bg-light">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Waterloo</h5>
+            <p><img src="http://openweathermap.org/img/wn/<%= icon %>@2x.png"></p>
+            <p class="card-text"><%= temp %>°  <%= des %> </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Christchurch</h5>
+            <p><img src="http://openweathermap.org/img/wn/<%= icon %>@2x.png"></p>
+            <p class="card-text"><%= temp %>°  <%= des %> </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Chongqing</h5>
+            <p><img src="http://openweathermap.org/img/wn/<%= icon %>@2x.png"></p>
+            <p class="card-text"><%= temp %>°  <%= des %> </p>
+          </div>
+        </div>
+      </div>
+
+    <!-- Display todo list -->
+    <div class="col-lg-6 todo">
+      <p>Show todo lists</p>
+    </div>
+
+    <!-- Display coming birthdays -->
+    <div class="col-lg-3 birthday bg-light">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Today's birthday</h5>
+          <p><img src="http://openweathermap.org/img/wn/<%= icon %>@2x.png"></p>
+          <p class="card-text"> tDate   - 18 years old </p>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Coming birthday</h5>
+            <p><img src="http://openweathermap.org/img/wn/<%= icon %>@2x.png"></p>
+            <p class="card-text">years old </p>
+          </div>
+      </div>
+    </div>
+
+    </div>
+  </div>
+
+  <div class="footer">
+
+  </div>
+  <script type="text/javascript" src="app.js">
+  </script>
+
+<%- include("footer") -%>
